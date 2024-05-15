@@ -8,6 +8,19 @@ public class Estudiante {
     private int comision;
     private String  direccion;
 
+    public String tusDatos(){
+        return ("nombre: "+this.getNombre()+" apellido: "+this.getApellido()+" email: "+this.getEmail()+
+                " direccion: "+this.getDireccion()+" comision: "+this.getComision());
+    }
+
+    public Estudiante(String nombre, String apellido, String email, int comision, String direccion) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.email = email;
+        this.comision = comision;
+        this.direccion = direccion;
+    }
+
     public String getNombre() {
         return nombre;
     }
