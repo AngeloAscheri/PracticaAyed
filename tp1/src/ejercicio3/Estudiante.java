@@ -21,6 +21,9 @@ public class Estudiante {
         this.direccion = direccion;
     }
 
+    public Estudiante() {
+    }
+
     public String getNombre() {
         return nombre;
     }

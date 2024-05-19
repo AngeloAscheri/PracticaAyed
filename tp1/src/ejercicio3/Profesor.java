@@ -21,6 +21,9 @@ public class Profesor {
         this.facultad = facultad;
     }
 
+    public Profesor() {
+    }
+
     public String getNombre() {
         return nombre;
     }
