@@ -80,13 +80,13 @@ public class TestArrayList {
         return e;
     };
 
+    //f)
     public boolean esCapicua(ArrayList<Integer> lista){
 
         ArrayList<Integer> listaInvertida = lista;
         Collections.reverse(listaInvertida);
         return lista.equals(listaInvertida);
     }
-
 
 
     public static void main(String[] args) {
@@ -105,9 +105,6 @@ public class TestArrayList {
         for (Integer numero : lista) {
             System.out.println(numero);
         }*/
-
-
-
 
         //b)
         // El LinkedList es más eficiente en inserciones y eliminaciones en posiciones intermedias.

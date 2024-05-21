@@ -16,7 +16,7 @@ public class Queue<T> extends Sequence{
     public T dequeue() {
         if (isEmpty()) {
             return null; // or throw an exception
-        }
+        }        
         return data.remove(0);
     }
 
