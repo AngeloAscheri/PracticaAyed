@@ -1,4 +1,6 @@
-public class CircularQueue<T> extends Queue{
+package Pila;
+
+public class CircularQueue<T> extends Queue {
     private T tp1;
 
     public T shift() {

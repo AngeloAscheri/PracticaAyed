@@ -1,7 +1,9 @@
+package Pila;
+
 import java.util.*;
 import java.util.LinkedList;
 
-public class Queue<T> extends Sequence{
+public class Queue<T> extends Sequence {
 
     private List<T> data;
 

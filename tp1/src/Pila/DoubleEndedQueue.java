@@ -1,4 +1,6 @@
-public class DoubleEndedQueue<T> extends Queue{
+package Pila;
+
+public class DoubleEndedQueue<T> extends Queue {
     private T tp1;
 
     public void enqueueFirst(T data) {

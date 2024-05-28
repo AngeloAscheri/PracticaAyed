@@ -1,3 +1,5 @@
+package ejercicio1;
+
 public class BinaryTree <T> {
 
     private T data;

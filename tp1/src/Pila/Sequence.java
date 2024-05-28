@@ -1,3 +1,5 @@
+package Pila;
+
 public class Sequence {
     private int size;
 

@@ -1,3 +1,5 @@
+import ejercicio1.BinaryTree;
+
 public class RedBinariaLlena {
 
     public BinaryTree<Integer> arbolBinario;

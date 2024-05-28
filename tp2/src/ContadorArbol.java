@@ -1,4 +1,5 @@
-import javax.naming.BinaryRefAddr;
+import ejercicio1.BinaryTree;
+
 import java.util.ArrayList;
 import java.util.List;
 
